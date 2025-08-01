@@ -34,7 +34,7 @@ def adivinha_numero():
 
                 print("numero Muito alto ")
             else:
-                print("fVocê adivinhou  {numero_secreto} em {tentativas} tentativas")
+                print(f"Você adivinhou  {numero_secreto} em {tentativas} tentativas")
                 break
 
         except ValueError:
